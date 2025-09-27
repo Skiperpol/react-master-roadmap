@@ -7,7 +7,7 @@
 ## Instructions
 1. Try setting `class="title"` — observe the warning/error.
 2. Change to `className="title"`.
-3. Add a simple style in `index.css` and verify it works.
+3. Add a simple style in `style.css` and verify it works.
 
 
 ## Acceptance Criteria
