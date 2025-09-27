@@ -5,7 +5,7 @@
 
 
 ## Instructions
-1. Create `App.jsx` returning `<h1>Hello JSX</h1>`.
+1. Create `App.tsx` returning `<h1>Hello TSX</h1>`.
 2. Run the project and check the result in the browser.
 3. Add a second element (e.g. `<p>`), observe the “Adjacent JSX elements...” error, and fix it (see hints).
 
