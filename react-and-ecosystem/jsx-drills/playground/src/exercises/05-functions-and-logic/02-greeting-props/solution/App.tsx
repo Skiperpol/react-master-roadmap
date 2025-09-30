@@ -5,7 +5,7 @@ type Greeting = {
 const App = (greeting: Greeting) => {
     return(
         <>
-            {greeting.name ? "Hello, " + greeting.name : "Hello, stranger!"}
+            "Hello, {greeting.name ? greeting.name : "stranger"}!"
         </>
     )
 }
