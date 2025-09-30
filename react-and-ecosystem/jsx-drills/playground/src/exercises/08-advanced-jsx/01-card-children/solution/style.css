@@ -1,0 +1,27 @@
+/* style.css */
+.card {
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.2s ease-in-out;
+    max-width: 400px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #2d3748;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 0.5rem;
+  }
+  
