@@ -3,7 +3,7 @@ type User = {
     firstName: string
     lastName: string
 }
-const usersList = () => {
+const UsersList = () => {
     const users: User[] = [
         { id: 1, firstName: "Jan", lastName: "Kowalski" },
         { id: 2, firstName: "Anna", lastName: "Nowak" },
@@ -19,4 +19,4 @@ const usersList = () => {
     )
 }
 
-export default usersList
+export default UsersList

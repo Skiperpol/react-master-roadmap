@@ -3,7 +3,7 @@ type item = {
   id: number;
   text: string;
 };
-const checkboxes = () => {
+const Checkboxes = () => {
   const [items, setItems] = useState<item[]>([
     { id: 1, text: "1" },
     { id: 2, text: "2" },
@@ -39,4 +39,4 @@ const checkboxes = () => {
   );
 };
 
-export default checkboxes;
+export default Checkboxes;

@@ -3,9 +3,9 @@ const formatDate = (date: Date) => {
     return formatter.format(date)
 }
 
-const renderDate = ({date} : {date: Date}) => {
+const RenderDate = ({date} : {date: Date}) => {
     const formatedDate = formatDate(date)
     return (<time dateTime={date.toISOString()}>{formatedDate}</time>)
 
 }
-export default renderDate
+export default RenderDate
