@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './exercises/06-lists-and-keys/01-list-of-objects/solution/App'
+import App from './exercises/06-lists-and-keys/03-index-as-key-experiment/solution/App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
