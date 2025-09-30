@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './exercises/05-functions-and-logic/03-formatDate-helper/solution/App'
+import App from './exercises/06-lists-and-keys/01-list-of-objects/solution/App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App date={new Date("2025-09-30T00:00:00")} />
+    <App />
   </StrictMode>,
 )
